@@ -127,13 +127,13 @@ CREATE TABLE IF NOT EXISTS `student` (
 --
 
 INSERT INTO `student` (`USN`, `Name`, `Sem`, `Email`, `Password`) VALUES
-('4CB16CS116', 'VINAYAKA NAIK', 7, 'vinayakamudradi@gmail.com', '1234'),
-('4CB16CS109', 'THANUSH', 7, 'thanushbangera@gmail.com', '1234'),
-('4CB16CS117', 'VINEETH RAO P', 7, 'raoneeth@gmail.com', '12345'),
-('4CB16CS100', 'SUDARSHAN NAVADA', 7, 'navda@gmail.com', '12'),
-('4CB16CS090', 'Shravan', 7, 'hebrishravan@gmail.com', '12'),
-('4CB16CS111', 'Shakul', 7, 'sha@gmail.com', '12'),
-('4CB16CS189', 'Arya', 5, 'ar@gmail.com', '14');
+('4XX16CS116', 'VINAYAKA NAIK', 7, 'vinayaka@gmail.com', '1234'),
+('4XX16CS109', 'THANUSH', 7, 'thanush@gmail.com', '1234'),
+('4XX16CS117', 'VINEETH RAO P', 7, 'rao@gmail.com', '12345'),
+('4XX16CS100', 'SUDARSHAN NAVADA', 7, 'navda@gmail.com', '12'),
+('4XX16CS090', 'Shravan', 7, 'hshravan@gmail.com', '12'),
+('4XX16CS111', 'Shakul', 7, 'sha@gmail.com', '12'),
+('4XX16CS189', 'Arya', 5, 'ar@gmail.com', '14');
 
 -- --------------------------------------------------------
 
@@ -197,8 +197,8 @@ CREATE TABLE IF NOT EXISTS `submission` (
 --
 
 INSERT INTO `submission` (`USN`, `SEM`, `SUBJECT`, `PRGNO`, `PRG`, `SNAPSHOT1`, `SNAPSHOT2`, `SNAPSHOT3`, `DATETIME`, `STATEMENT`, `STATUS`, `COMMENTS`) VALUES
-('4CB16CS090', '7', 'Web Technology Lab', 'Program 7', 'code is done.', 'Screenshot (75).png', '', '', '2020-05-09 12:39:15', 'Write the PHP programs to do the following: Find thetranspose of a matrix.', 'APPROVED', 'Very good.'),
-('4CB16CS090', '7', 'Web Technology Lab', 'Program 1', 'code done.', 'Screenshot (77).png', '', '', '2020-05-09 13:05:31', 'Write a JavaScript to design a simple calculator to perform the following operations:sum, product, difference and quotient.', 'PENDING', NULL);
+('4XX16CS090', '7', 'Web Technology Lab', 'Program 7', 'code is done.', 'Screenshot (75).png', '', '', '2020-05-09 12:39:15', 'Write the PHP programs to do the following: Find thetranspose of a matrix.', 'APPROVED', 'Very good.'),
+('4XX16CS090', '7', 'Web Technology Lab', 'Program 1', 'code done.', 'Screenshot (77).png', '', '', '2020-05-09 13:05:31', 'Write a JavaScript to design a simple calculator to perform the following operations:sum, product, difference and quotient.', 'PENDING', NULL);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
